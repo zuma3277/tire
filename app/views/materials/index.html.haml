@@ -1,0 +1,36 @@
+%h1
+  試作原材料管理
+
+#table-wrapper
+  .links
+    = link_to "新規登録", new_material_path 
+
+
+%table.list
+  %tr
+    %th
+      氏名
+    %th
+      原材料名
+    %th
+      重さ/数量
+    %th
+      登録日
+    %th
+      終了日予定日
+    %th
+      アクション
+  - @materials.each do |material|
+    %tr
+      %td
+        = material.name
+      %td
+        = material.raw_material
+      %td
+        = material.weight
+      %td.date
+        = material.start_day
+      %td.date
+        = material.end_day
+      %td.action
+        = link_to '削除', material_path(material.id), method: :delete, data: { confirm: '【確認】本当に削除しますか？' }

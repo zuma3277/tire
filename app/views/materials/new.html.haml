@@ -1,0 +1,27 @@
+%h1
+  試作原材料新規登録
+.generic_form
+  .text
+    %span.mark * 
+    印のついた項目は入力必須です。
+  .form
+    = form_for @material do |f|
+      %p
+        氏名
+      = f.text_field :name, class: "required", placeholder: "氏名を入力して下しい"
+      %p
+        原材料名
+      = f.text_field :raw_material ,class: "required"
+      %p
+        重さ/数量
+      = f.text_field :weight ,class: "required"
+      %p
+        登録日
+      = f.date_field :start_day ,class: "required"
+      %br
+      %p1
+        終了予定日
+      = f.date_field :end_day ,class: "required"
+
+      = f.submit "登録" ,class: "btn"
+      = link_to "キャンセル"
