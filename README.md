@@ -20,7 +20,8 @@
 https://gyazo.com/15dd92a7b26516339e759cb2c8f2c205
 
 # 開発環境. 
-Ruby on rails. 
+Ruby on rails
+
 VS code (Visual Stadio Code). 
 
 簡単に操作できるようにわかりやすい操作性を重視した. 
