@@ -1,24 +1,15 @@
-# README
+アプリ名
+タイヤ試作原材料管理
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+概要
+ゴムの試作を行う際の原材料在庫を管理するアプリ
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+本番環境
+デプロイ先 AWS
+テストアカウント　メールアドレス  tire-date@gom.jp
+               パスワード　3277nami
+               
+制作背景
+現在の会社にて、ゴムの試作を行うとき様々多岐にわたる原材料を使用しますが、
+担当の個人個人での管理となっていて棚卸し時に集計するのに時間を要する為
+一括で管理できるものが有ればと思い制作しました。
