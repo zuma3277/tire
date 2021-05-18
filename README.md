@@ -8,7 +8,7 @@
 デプロイ先 AWS. 
 
  テストアカウント. 
-  メールアドレス  tire-date@gom.jp<br>
+  メールアドレス  tire-date@gom.jp
   パスワード　3277nami. 
                
 制作背景
